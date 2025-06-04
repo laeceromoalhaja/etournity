@@ -4,7 +4,7 @@ const withTM = require('next-transpile-modules')([
 ])
 
 const options = {
-  distDir: 'dist',
+  // distDir: 'dist', // REMOVED for Vercel compatibility
   reactStrictMode: true,
   poweredByHeader: false,
   swcMinify: true,
